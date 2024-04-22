@@ -1,0 +1,47 @@
+*{
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: aqua;
+    
+}
+
+.item{
+    background-color: brown;
+    text-align: center;
+    /* line-height: 180px; */
+    /* min-height: 180px; */
+    font-size: 30px;
+    color: #fff;
+    word-wrap: break-word;
+    line-height: 80px;
+    display: block;
+    text-align: none;
+}
+h1{
+    line-height: 30px;
+    font-size: 20px;
+    
+
+}
+
+@media(min-width:740px) and (max-width:1112px){
+    .item{
+        background-color: orange;
+    }
+}
+
+@media (max-width: 739px){
+    .item{
+        background-color: greenyellow;
+    }
+}
+
+
